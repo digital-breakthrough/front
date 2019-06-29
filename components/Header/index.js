@@ -28,7 +28,7 @@ class Nav extends React.Component {
 					<div className="nav">
 						<ul>
 							<li>
-								<Link href="#">
+								<Link href="/">
 									<a>Специалисту</a>
 								</Link>
 							</li>

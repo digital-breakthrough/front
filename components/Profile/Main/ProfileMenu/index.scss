@@ -1,0 +1,19 @@
+.profile-menu {
+    .items {
+        .item {
+            transition: .3s ease;
+            padding: 10px 30px;
+            
+            &:hover {
+                a {
+                    color: #27476E;
+                }
+            }
+
+            a {
+                color: #51a3a3;
+                text-decoration: none;
+            }
+        }
+    }
+}
