@@ -2,6 +2,11 @@ import React from 'react'
 import NextHead from 'next/head'
 import { string } from 'prop-types'
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faFacebookF, faVk, faGoogle } from '@fortawesome/free-brands-svg-icons'
+
+library.add(faFacebookF, faVk, faGoogle);
+
 const defaultDescription = ''
 const defaultOGURL = ''
 const defaultOGImage = ''
