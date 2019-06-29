@@ -1,0 +1,15 @@
+.specialist-cover {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 680px;
+
+    img {
+        position: absolute;
+        top: 0px;
+        object-fit: cover;
+        filter: brightness(60%);
+        height: 680px;
+        width: 100vw;
+    }
+}
