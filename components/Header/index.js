@@ -28,17 +28,17 @@ class Nav extends React.Component {
 					<div className="nav">
 						<ul>
 							<li>
-								<Link href="/">
+								<Link href="#">
 									<a>Специалисту</a>
 								</Link>
 							</li>
 							<li>
-								<Link href="/">
+								<Link href="#">
 									<a>Компании</a>
 								</Link>
 							</li>
 							<li>
-								<Link href="/">
+								<Link href="#">
 									<a>Образовательной организации</a>
 								</Link>
 							</li>
