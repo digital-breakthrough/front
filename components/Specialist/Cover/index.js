@@ -20,23 +20,19 @@ const specialisations = [
   },
   {
     id: 3,
-    label: "Программист php"
+    label: "Php разработчик"
   },
   {
     id: 4,
-    label: "Программист c"
+    label: "C разработчик"
   },
   {
     id: 5,
-    label: "Программист oracle"
+    label: "Oracle разработчик"
   },
   {
     id: 6,
-    label: "Программист sql"
-  },
-  {
-    id: 7,
-    label: "Программист 1c"
+    label: "SQL разработчик"
   },
   {
     id: 8,
