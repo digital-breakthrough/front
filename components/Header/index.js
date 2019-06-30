@@ -39,7 +39,12 @@ class Nav extends React.Component {
 							</li>
 							<li>
 								<Link href="#">
-									<a>Образовательной организации</a>
+									<a>Учебный центр</a>
+								</Link>
+							</li>
+							<li>
+								<Link href="/company-rating">
+									<a className="rating">Рейтинг компаний</a>
 								</Link>
 							</li>
 						</ul>

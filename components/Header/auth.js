@@ -40,7 +40,7 @@ class Nav extends React.Component {
 							</li>
 							<li>
 								<Link href="#">
-									<a>Образовательной организации</a>
+									<a>Учебный центр</a>
 								</Link>
 							</li>
 						</ul>

@@ -4,8 +4,9 @@ import { string } from 'prop-types'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faFacebookF, faVk, faGoogle } from '@fortawesome/free-brands-svg-icons'
+import { faTrophy, faMedal } from '@fortawesome/free-solid-svg-icons';
 
-library.add(faFacebookF, faVk, faGoogle);
+library.add(faFacebookF, faVk, faGoogle, faTrophy, faMedal);
 
 const defaultDescription = ''
 const defaultOGURL = ''
