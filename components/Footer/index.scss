@@ -1,0 +1,32 @@
+.footer {
+    background: #f0f0f0;
+
+    .wrapper {
+        width: 1080px;
+        padding: 50px 0px 80px;
+        // color: #fff;
+        margin: 0px auto;
+
+        .columns {
+            display: flex;
+
+            .column {
+                width: 240px;
+
+                .title {
+                    color: #333;
+                    font-weight: 600;
+                    font-size: 1.1em;
+                    padding-bottom: 10px;
+                }
+
+                .link {
+                    font-weight: 600;
+                    font-size: 0.9em;
+                    color: #aaa;
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+}

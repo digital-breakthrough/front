@@ -6,6 +6,7 @@ import Header from "../components/Header/index";
 import SpecialistCover from "../components/Specialist/Cover/index";
 import SpecialistCourses from "../components/Specialist/Courses/index";
 import PopupSignin from "../components/Specialist/PopupSignIn/index";
+import Footer from "../components/Footer/index";
 
 const Home = () => (
   <div>
@@ -14,6 +15,7 @@ const Home = () => (
     <SpecialistCover />
     <SpecialistCourses />
     <PopupSignin />
+    <Footer />
   </div>
 );
 
