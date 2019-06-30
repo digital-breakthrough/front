@@ -6,7 +6,7 @@ import './index.scss';
 const ProfileMenu = () => (
     <div className="items">
         <div className="item">
-            <Link href="#">
+            <Link href="/profile">
                 <a>Основная информация</a>
             </Link>
         </div>
@@ -16,12 +16,12 @@ const ProfileMenu = () => (
             </Link>
         </div>
         <div className="item">
-            <Link href="#">
+            <Link href="/profile/proven">
                 <a>Подтвержденные навыки</a>
             </Link>
         </div>
         <div className="item">
-            <Link href="#">
+            <Link href="/profile/recommend">
                 <a>Рекомендации для развития</a>
             </Link>
         </div>

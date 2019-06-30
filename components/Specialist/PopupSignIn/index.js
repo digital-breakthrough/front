@@ -1,7 +1,6 @@
 import React from "react";
 import Popup from "reactjs-popup";  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
 import Link from "next/link";
 
 import "./index.scss";
@@ -12,7 +11,9 @@ class SpecialistPopupSignIn extends React.Component {
         super();
     
         this.state = {
-            isOpened: false
+            isOpened: false,
+            email: "",
+            password: ""
         };
 
     }
@@ -29,6 +30,20 @@ class SpecialistPopupSignIn extends React.Component {
         }
       }
 
+    logIn() {
+        if (this.state.email == 'sgu@sgu.pro' && this.state.password == "root") {
+            location.href = "/profile";
+        } else alert('Неверная электронная почта или пароль');
+    }
+
+    handleChangeEmail(event) {
+        this.setState({email: event.target.value});
+    }
+
+    handleChangePassword(event) {
+        this.setState({password: event.target.value}); 
+    }
+
     render() {
 
         return (
@@ -38,10 +53,10 @@ class SpecialistPopupSignIn extends React.Component {
                         Вход
                     </div>
                     <div className="main">
-                        <input placeholder="Email" type="text" /> <br />
-                        <input placeholder="Password" type="password" /> <br />
+                        <input placeholder="Email" type="text" value={this.state.email} onChange={this.handleChangeEmail.bind(this)} /> <br />
+                        <input placeholder="Password" type="password" value={this.state.password} onChange={this.handleChangePassword.bind(this)} /> <br />
                         <div className="submit">
-                            <button>Войти</button>
+                            <button onClick={this.logIn.bind(this)}>Войти</button>
                         </div>
                     </div>
                     <div className="social-network">

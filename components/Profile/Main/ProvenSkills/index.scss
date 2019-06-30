@@ -1,0 +1,39 @@
+.profile-main {
+    .skills {
+        width: 400px;
+
+        .skill {
+            margin: 25px 30px;
+            padding: 20px 30px;
+            border: 1px solid #aaa;
+
+            .title {
+                font-weight: 600;
+                color: #444;
+                text-decoration: none;
+                font-size: 1.05em;
+            }
+
+            .description {
+                margin-top: 20px;
+                line-height: 1.5em;
+            }
+
+            .course {
+                margin-top: 10px;
+
+                button {
+                    margin-top: 10px;
+                    width: 280px;
+                    height: 45px;
+                    border: none;
+                    background: #51A3A3;
+                    color: #fff;
+                    font-size: 1em;
+                    cursor: pointer;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}

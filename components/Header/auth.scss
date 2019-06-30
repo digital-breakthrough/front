@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Avenir Next, Avenir, Helvetica, sans-serif;
+}
+
+.header {
+    position: relative;
+    background: #fff;
+    z-index: 1000;
+    
+    .wrap {
+        height: 75px;
+        display: flex;
+        max-width: 1200px;
+        margin: auto;
+
+        .logo {
+            width: 230px;
+            height: 62px;
+            
+            img {
+                height: 57px;
+                margin: 8px;
+            }
+        }
+
+        .nav {
+            font-size: 0.85em;
+            text-transform: uppercase;
+            padding-top: 10px;
+            flex-grow: 1;
+
+            ul {
+                display: flex;
+        
+                ul {
+                    float: right;
+                }
+        
+                li {
+                    display: flex;
+                    padding: 6px 8px;
+        
+                    a {
+                        font-weight: 600;
+                        color: #444;
+                        text-decoration: none;
+                        font-size: 1.05em;
+                    }
+                }
+            }
+        }
+
+        .auth {
+            display: flex;
+            font-weight: 500;
+            font-size: 1em;
+
+            .name {
+                margin: 29px 10px;
+                font-size: 0.95em;
+            }
+
+            .avatar {
+                width: 40px;
+                margin: 18px 10px;
+            }
+        }
+    }
+}
