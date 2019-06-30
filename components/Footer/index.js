@@ -1,15 +1,11 @@
 import React from "react";
-import Link from "next/link";
-import PopupSignIn from "../Specialist/PopupSignIn/index";
-import LogoImg from "../../static/logo.png";
 
 import './index.scss';
 
 class Footer extends React.Component {
-
-	render() {
-		return (
-			<footer className="footer">
+    render() {
+        return (
+            <footer className="footer">
                 <div className="wrapper">
                     <div className="columns">
                         <div className="column">
@@ -53,9 +49,9 @@ class Footer extends React.Component {
                         </div>
                     </div>
                 </div>
-			</footer>
-		)
-	}
+            </footer>
+        )
+    }
 };
 
 export default Footer;

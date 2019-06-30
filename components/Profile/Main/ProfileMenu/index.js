@@ -25,7 +25,7 @@ const ProfileMenu = () => (
                 <a>Рекомендации для развития</a>
             </Link>
         </div>
-	</div>
+    </div>
 );
 
 export default ProfileMenu;

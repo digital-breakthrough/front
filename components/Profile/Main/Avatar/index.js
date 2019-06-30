@@ -5,7 +5,7 @@ import AvatarImage from '../../../../static/avatar.jpg';
 
 const ProfileAvatar = () => (
 	<div>
-        <img src={AvatarImage} />
+		<img src={AvatarImage} />
 	</div>
 );
 

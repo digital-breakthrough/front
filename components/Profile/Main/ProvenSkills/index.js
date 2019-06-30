@@ -3,10 +3,10 @@ import React from "react";
 import './index.scss';
 
 class ProfileProvenSkills extends React.Component {
-    
+
     constructor() {
         super();
-        this.state={
+        this.state = {
             rating: 0,
             firstName: 'Иванов',
             lastName: 'Иван',
@@ -39,15 +39,15 @@ class ProfileProvenSkills extends React.Component {
                                 <div className="skill" key={skill.id}>
                                     <div className="title">
                                         {skill.title}
-                                    </div> 
+                                    </div>
                                     <div className="description">
                                         {skill.description}
-                                    </div> 
+                                    </div>
                                     <div className="course">
                                         <button>
                                             Перейти на страницу курса
                                         </button>
-                                    </div> 
+                                    </div>
                                 </div>
                             )
                         })

@@ -1,7 +1,5 @@
 import React from "react";
-import Popup from "reactjs-popup";  
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import Link from "next/link";
 
 import "./index.scss";
 
@@ -9,7 +7,7 @@ class SpecialistPopupSignIn extends React.Component {
 
     constructor() {
         super();
-    
+
         this.state = {
             isOpened: false,
             email: "",
@@ -20,15 +18,15 @@ class SpecialistPopupSignIn extends React.Component {
 
     componentDidMount() {
         document.getElementById("bg").addEventListener("click", () => {
-            this.setState({isOpened: false});
+            this.setState({ isOpened: false });
         });
     }
 
     componentWillReceiveProps(nextProps) {
         if (this.state.isOpened !== nextProps.isOpened) {
-            this.setState({ isOpened: nextProps.isOpened});
+            this.setState({ isOpened: nextProps.isOpened });
         }
-      }
+    }
 
     logIn() {
         if (this.state.email == 'sgu@sgu.pro' && this.state.password == "root") {
@@ -37,11 +35,11 @@ class SpecialistPopupSignIn extends React.Component {
     }
 
     handleChangeEmail(event) {
-        this.setState({email: event.target.value});
+        this.setState({ email: event.target.value });
     }
 
     handleChangePassword(event) {
-        this.setState({password: event.target.value}); 
+        this.setState({ password: event.target.value });
     }
 
     render() {

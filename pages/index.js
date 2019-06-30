@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Meta from "../components/Meta/index";
 import Header from "../components/Header/index";
 
@@ -9,14 +8,14 @@ import PopupSignin from "../components/Specialist/PopupSignIn/index";
 import Footer from "../components/Footer/index";
 
 const Home = () => (
-  <div>
-    <Meta title="Home" />
-    <Header />
-    <SpecialistCover />
-    <SpecialistCourses />
-    <PopupSignin />
-    <Footer />
-  </div>
+	<div>
+		<Meta title="Home" />
+		<Header />
+		<SpecialistCover />
+		<SpecialistCourses />
+		<PopupSignin />
+		<Footer />
+	</div>
 );
 
 export default Home;

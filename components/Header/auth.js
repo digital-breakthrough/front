@@ -4,19 +4,18 @@ import PopupSignIn from "../Specialist/PopupSignIn/index";
 import LogoImg from "../../static/logo.png";
 import Avatar from "../Profile/Main/Avatar/index";
 
-import './auth.scss';
+import "./auth.scss";
 
 class Nav extends React.Component {
-
 	constructor() {
 		super();
 		this.state = {
 			popupSignInIsOpened: false
-		}
+		};
 	}
 
 	openPopupSignIn() {
-		this.setState({ popupSignInIsOpened: true});
+		this.setState({ popupSignInIsOpened: true });
 	}
 
 	render() {
@@ -46,18 +45,16 @@ class Nav extends React.Component {
 						</ul>
 					</div>
 					<div className="auth">
-                        <div className="name">
-                            Иванов Иван
-                        </div>
-                        <div className="avatar">
-                            <Avatar />
-                        </div>
+						<div className="name">Иванов Иван</div>
+						<div className="avatar">
+							<Avatar />
+						</div>
 					</div>
 				</div>
-				<PopupSignIn isOpened={this.state.popupSignInIsOpened}/>
+				<PopupSignIn isOpened={this.state.popupSignInIsOpened} />
 			</nav>
-		)
+		);
 	}
-};
+}
 
 export default Nav;

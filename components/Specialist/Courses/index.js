@@ -24,8 +24,8 @@ const courseList = [{
 }];
 
 const SpecialistCourses = () => (
-	<div className="specialist-course">
-		<div className="wrap">
+    <div className="specialist-course">
+        <div className="wrap">
             <h2>Подходящие курсы</h2>
             <div className="list">
                 {
@@ -44,7 +44,7 @@ const SpecialistCourses = () => (
                 }
             </div>
         </div>
-	</div>
+    </div>
 );
 
 export default SpecialistCourses;

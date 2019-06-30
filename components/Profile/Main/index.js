@@ -19,7 +19,7 @@ class ProfileMain extends React.Component {
                         {this.props.children}
                     </div>
                 </div>
-            </div>    
+            </div>
         )
     }
 }

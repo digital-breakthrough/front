@@ -3,10 +3,10 @@ import React from "react";
 import './index.scss';
 
 class ProfileRecomendSkills extends React.Component {
-    
+
     constructor() {
         super();
-        this.state={
+        this.state = {
             skills: [
                 {
                     id: 1,
@@ -28,17 +28,17 @@ class ProfileRecomendSkills extends React.Component {
                                 <div className="skill" key={skill.id}>
                                     <div className="title">
                                         {skill.title}
-                                    </div> 
+                                    </div>
                                     <div className="description">
                                         {skill.description}
-                                    </div> 
+                                    </div>
                                     <div className="course">
-                                        <button onClick={()=>{
+                                        <button onClick={() => {
                                             window.open(skill.link);
                                         }}>
                                             Перейти на страницу курса
                                         </button>
-                                    </div> 
+                                    </div>
                                 </div>
                             )
                         })

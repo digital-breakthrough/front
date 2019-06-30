@@ -15,7 +15,7 @@ class Nav extends React.Component {
 	}
 
 	openPopupSignIn() {
-		this.setState({ popupSignInIsOpened: true});
+		this.setState({ popupSignInIsOpened: true });
 	}
 
 	render() {
@@ -64,7 +64,7 @@ class Nav extends React.Component {
 						</ul>
 					</div>
 				</div>
-				<PopupSignIn isOpened={this.state.popupSignInIsOpened}/>
+				<PopupSignIn isOpened={this.state.popupSignInIsOpened} />
 			</nav>
 		)
 	}
